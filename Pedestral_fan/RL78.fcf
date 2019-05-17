@@ -1,0 +1,28 @@
+[Header]
+Description=Renesas Flash Programmer Configuration File
+File Type=3.1
+[Device Info]
+Device Type=4
+Protocol=2
+Device Code=
+Product Name=RL78
+Support FAW=FALSE
+Support ESW=FALSE
+Memory Area Count=1
+[Clock Info]
+Clock Mode=0
+Support Clock=
+OSC Frequency Range=0,0
+CPU Frequency Range=0,0
+SCI Frequency Range=0,0
+CPU Ratio=
+SCI Ratio=
+[Memory Area 0]
+Area Type=0x00000001
+Start Address=0x00000000
+Size=0x00001000
+Erase Unit Size=0x00001000
+Write Unit Size=0x00001000
+Attribute=0x00000000
+[Checksum]
+Checksum=0x584CA3B8
